@@ -157,7 +157,7 @@ export const EventDetail = () => {
                     maxWidth: "420px",
                   }}
                 >
-                  <RegistrationForm />
+                  <RegistrationForm filteredEvents={filteredEvent} />
                 </Box>
               </Grow>
             </Grid>

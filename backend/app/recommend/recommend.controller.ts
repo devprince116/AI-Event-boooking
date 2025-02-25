@@ -13,3 +13,4 @@ export const recommendation = asyncHandler(async (req: Request, res: Response) =
     const recommendations = await recommendEvents(city, month, year);
     res.json({ success: true, message: "recommendation added successfully ", recommendations });
 })
+

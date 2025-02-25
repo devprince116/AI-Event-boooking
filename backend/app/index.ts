@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors"
 import routes from "./routes"
 import { loadConfig } from "./common/helper/config.helper";
+import { setupSwagger } from "./common/helper/config.swagger";
 dotenv.config();
 loadConfig()
 const PORT = process.env.PORT || 5000;
@@ -28,6 +29,8 @@ app.get("/", (req, res) => {
 
 //  define routes
 app.use("/api/v1", routes)
+
+setupSwagger(app)
 
 app.listen(PORT, () => {
     console.log(`Server running on PORT: ${PORT}`);

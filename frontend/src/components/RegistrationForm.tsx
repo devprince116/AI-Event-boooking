@@ -1,36 +1,74 @@
 import { useState } from "react";
-import {
-  Paper,
-  Typography,
-  TextField,
-  Button,
-  Box,
-  Zoom,
-  Fade,
-} from "@mui/material";
+import { Paper, Typography, TextField, Button, Box, Fade } from "@mui/material";
 import { CheckCircleOutline } from "@mui/icons-material";
 import { QRCodeSVG } from "qrcode.react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
-export const RegistrationForm = () => {
+const USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+
+interface Event {
+  id: number;
+  heading: string;
+  date: { year: number; month: string };
+  location: string;
+  img: string;
+  category: string;
+}
+
+interface RegistrationFormProps {
+  filteredEvents: Event;
+}
+
+export const RegistrationForm: React.FC<RegistrationFormProps> = ({
+  filteredEvents,
+}) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
   const [registered, setRegistered] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
+  const [recommendedEvents, setRecommendedEvents] = useState<{
+    requestedEvents: Event[];
+    futureEvents: Event[];
+  }>({
+    requestedEvents: [],
+    futureEvents: [],
+  });
 
-  const validateEmail = (email: string) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  };
+  const validateEmail = (email: string) =>
+    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
-    if (!validateEmail(e.target.value)) {
-      setEmailError("Please enter a valid email address");
-    } else {
-      setEmailError("");
+    setEmailError(
+      validateEmail(e.target.value) ? "" : "Please enter a valid email address"
+    );
+  };
+
+  const fetchRecommendations = async () => {
+    try {
+      const response = await fetch(BASE_URL + "/events", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          city: filteredEvents.location,
+          month: filteredEvents.date.month,
+          year: filteredEvents.date.year,
+        }),
+      });
+      const data = await response.json();
+      if (data.success) {
+        setRecommendedEvents({
+          requestedEvents: data.recommendations.data.requestedEvents,
+          futureEvents: data.recommendations.data.futureEvents,
+        });
+      }
+    } catch (error) {
+      console.error("Error fetching event recommendations:", error);
     }
   };
 
@@ -38,30 +76,26 @@ export const RegistrationForm = () => {
     if (name.trim() && validateEmail(email)) {
       setRegistered(true);
       setShowSuccess(true);
-
-      const templateParams = { to_email: email, user_name: name };
+      await fetchRecommendations();
+      toast.success("Registered successfully");
       try {
         await emailjs.send(
-          "service_9rursh8",
-          "template_g445vv9",
-          templateParams,
-          "MIyqh4eAYodDGJPUi"
+          USER_ID,
+          SERVICE_ID,
+          { to_email: email, user_name: name },
+          TEMPLATE_ID
         );
         toast.success("Email sent successfully");
-        console.log("Email sent successfully");
       } catch (error) {
         console.error("Error sending email", error);
       }
-    } else if (!validateEmail(email)) {
-      setEmailError("Please enter a valid email address");
+    } else {
+      setEmailError("Please enter a valid email");
     }
   };
 
   return (
     <Box
-      item
-      xs={12}
-      md={6}
       display="flex"
       alignItems="center"
       justifyContent="center"
@@ -73,13 +107,7 @@ export const RegistrationForm = () => {
           padding: "40px",
           borderRadius: "16px",
           textAlign: "center",
-          width: "100%",
           maxWidth: "500px",
-          mx: "auto",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
         }}
       >
         {!registered ? (
@@ -89,7 +117,6 @@ export const RegistrationForm = () => {
             </Typography>
             <TextField
               label="Full Name"
-              variant="outlined"
               fullWidth
               sx={{ mb: 2 }}
               value={name}
@@ -98,9 +125,8 @@ export const RegistrationForm = () => {
             <TextField
               label="Email"
               type="email"
-              variant="outlined"
               fullWidth
-              sx={{ mb: 3 }}
+              sx={{ mb: 2 }}
               value={email}
               onChange={handleEmailChange}
               error={!!emailError}
@@ -108,18 +134,17 @@ export const RegistrationForm = () => {
             />
             <Button
               variant="contained"
-              color="primary"
               fullWidth
-              sx={{ py: 1.8, fontSize: "1.1rem", fontWeight: "bold" }}
+              sx={{ py: 1.5 }}
               onClick={handleRegister}
-              disabled={!name.trim() || !validateEmail(email)}
+              disabled={!name || !validateEmail(email)}
             >
               Register Now
             </Button>
           </>
         ) : (
           <Fade in={showSuccess} timeout={500}>
-            <Box display="flex" flexDirection="column" alignItems="center">
+            <Box>
               <CheckCircleOutline
                 color="success"
                 sx={{ fontSize: 100, mb: 2 }}
@@ -127,28 +152,37 @@ export const RegistrationForm = () => {
               <Typography variant="h5" fontWeight="bold" color="success" mb={2}>
                 Registration Successful!
               </Typography>
-              <Typography variant="body1" fontWeight="bold" mb={2}>
-                Scan this QR to get your ticket on your registered email ID.
-              </Typography>
-              <Box
-                sx={{
-                  padding: "16px",
-                  backgroundColor: "#f5f5f5",
-                  borderRadius: "12px",
-                  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
-                }}
-              >
-                <QRCodeSVG
-                  value={`http://localhost:5173/confirm?email=${encodeURIComponent(
-                    email
-                  )}`}
-                  size={180}
-                  bgColor="#ffffff"
-                  fgColor="#000000"
-                  level="Q"
-                  includeMargin={true}
-                />
-              </Box>
+              <QRCodeSVG
+                value={`http://localhost:5173/confirm?email=${encodeURIComponent(
+                  email
+                )}`}
+                size={180}
+              />
+              {recommendedEvents.requestedEvents.length > 0 && (
+                <>
+                  <Typography variant="h6" fontWeight="bold" mt={4} mb={2}>
+                    Upcoming Events in {filteredEvents.location}:
+                  </Typography>
+                  {recommendedEvents.requestedEvents.map((event) => (
+                    <Box
+                      key={event.id}
+                      sx={{
+                        mb: 2,
+                        border: "1px solid #ccc",
+                        padding: 2,
+                        borderRadius: "8px",
+                      }}
+                    >
+                      <Typography variant="subtitle1" fontWeight="bold">
+                        {event.heading}
+                      </Typography>
+                      <Typography variant="body2">
+                        {event.date.month} {event.date.year} - {event.location}
+                      </Typography>
+                    </Box>
+                  ))}
+                </>
+              )}
             </Box>
           </Fade>
         )}
