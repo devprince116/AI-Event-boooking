@@ -4,9 +4,9 @@ export const generateDataOptions = (dataArray) => {
       <option key={index} value={data}>
         {data}
       </option>
-    )
-  })
-}
+    );
+  });
+};
 export const months = [
   "January",
   "February",
@@ -21,4 +21,4 @@ export const months = [
   "November",
   "December",
 ];
-export const years = [2024, 2025]
+export const years = [2025, 2026];

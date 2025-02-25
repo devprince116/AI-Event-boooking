@@ -1,0 +1,5684 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "2025,event,find,in,januari,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,januari,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,januari,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,januari,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,februari,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,februari,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,februari,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,februari,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,februari,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,februari,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,februari,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,march,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,march,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,march,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,march,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,find,in,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,in,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,bangalor,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,bangalor,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,delhi,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,delhi,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,chennai,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,chennai,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,april,event,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,may,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,may,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,may,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,may,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,june,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,june,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,june,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,june,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,june,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,june,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,juli,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,juli,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,juli,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,juli,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,juli,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,juli,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,juli,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,juli,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,juli,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,juli,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,juli,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,juli,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,find,in,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,in,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,delhi,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,delhi,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,event,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,bangalor,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,bangalor,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,chennai,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,august,chennai,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,mumbai,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,me,mumbai,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,kolkata,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,kolkata,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,delhi,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,kolkata,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,kolkata,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,mumbai,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,me,mumbai,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,hyderabad,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,hyderabad,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,kolkata,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,kolkata,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,find,in,novemb,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,event,in,me,novemb,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,find,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,chennai,event,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,decemb,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,bangalor,decemb,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,find,in,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,in,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,event,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,delhi,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2025,decemb,delhi,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,hyderabad,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,hyderabad,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,januari,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,januari,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,januari,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,januari,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,januari,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,januari,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,januari,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,januari,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,februari,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,februari,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,februari,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,februari,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,februari,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,februari,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,februari,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,februari,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,kolkata,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,kolkata,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,march,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,march,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,hyderabad,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,hyderabad,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,march,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,march,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,find,in,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,in,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,bangalor,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,bangalor,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,april,event,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,may,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,may,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,hyderabad,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,hyderabad,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,kolkata,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,kolkata,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,may,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,may,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,june,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,june,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,june,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,june,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,june,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,june,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,june,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,june,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,juli,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,juli,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,juli,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,juli,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,juli,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,juli,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,juli,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,juli,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,chennai,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,chennai,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,delhi,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,delhi,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,find,in,mumbai,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,in,me,mumbai,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,august,event,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,pune,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,me,pune,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,hyderabad,in,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,hyderabad,in,me,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,mumbai,septemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,me,mumbai,septemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,kolkata,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,kolkata,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,mumbai,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,me,mumbai,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,octob,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,me,octob,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,octob,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,me,octob,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,kolkata,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,kolkata,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,find,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,event,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,find,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,event,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,in,mumbai,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,in,me,mumbai,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,find,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,delhi,event,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,find,hyderabad,in,novemb,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,event,hyderabad,in,me,novemb,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,decemb,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,chennai,decemb,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,find,in,pune,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,in,me,pune,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,find,hyderabad,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,hyderabad,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,find,in,kolkata,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,decemb,event,in,kolkata,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,decemb,event,find,in,this": {
+            "intent": "event.search",
+            "domain": "default"
+          },
+          "2026,bangalor,decemb,event,in,me,show": {
+            "intent": "event.search",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "event.search": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in January 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in February 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in March 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in April 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in May 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in June 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in July 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in August 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in September 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in October 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in December 2025",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in January 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in February 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in March 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in April 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in May 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in June 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in July 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in August 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in September 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in October 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in delhi this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in delhi in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in mumbai this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in mumbai in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in November 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in pune this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in pune in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in hyderabad this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in hyderabad in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in kolkata this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in kolkata in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in chennai this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in chennai in December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Find events in bangalore this December 2026",
+            "intent": "event.search"
+          },
+          {
+            "domain": "default",
+            "utterance": "Show me events in bangalore in December 2026",
+            "intent": "event.search"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "2025": 1,
+              "2026": 1,
+              "find": 1,
+              "event": 1,
+              "in": 1,
+              "mumbai": 1,
+              "this": 1,
+              "januari": 1,
+              "show": 1,
+              "me": 1,
+              "kolkata": 1,
+              "delhi": 1,
+              "bangalor": 1,
+              "februari": 1,
+              "chennai": 1,
+              "pune": 1,
+              "hyderabad": 1,
+              "march": 1,
+              "april": 1,
+              "may": 1,
+              "june": 1,
+              "juli": 1,
+              "august": 1,
+              "septemb": 1,
+              "octob": 1,
+              "novemb": 1,
+              "decemb": 1
+            },
+            "intents": {
+              "event.search": 1
+            },
+            "intentFeatures": {
+              "event.search": {
+                "2025": 1,
+                "2026": 1,
+                "find": 1,
+                "event": 1,
+                "in": 1,
+                "mumbai": 1,
+                "this": 1,
+                "januari": 1,
+                "show": 1,
+                "me": 1,
+                "kolkata": 1,
+                "delhi": 1,
+                "bangalor": 1,
+                "februari": 1,
+                "chennai": 1,
+                "pune": 1,
+                "hyderabad": 1,
+                "march": 1,
+                "april": 1,
+                "may": 1,
+                "june": 1,
+                "juli": 1,
+                "august": 1,
+                "septemb": 1,
+                "octob": 1,
+                "novemb": 1,
+                "decemb": 1
+              }
+            },
+            "featuresToIntent": {
+              "2025": [
+                "event.search"
+              ],
+              "2026": [
+                "event.search"
+              ],
+              "find": [
+                "event.search"
+              ],
+              "event": [
+                "event.search"
+              ],
+              "in": [
+                "event.search"
+              ],
+              "mumbai": [
+                "event.search"
+              ],
+              "this": [
+                "event.search"
+              ],
+              "januari": [
+                "event.search"
+              ],
+              "show": [
+                "event.search"
+              ],
+              "me": [
+                "event.search"
+              ],
+              "kolkata": [
+                "event.search"
+              ],
+              "delhi": [
+                "event.search"
+              ],
+              "bangalor": [
+                "event.search"
+              ],
+              "februari": [
+                "event.search"
+              ],
+              "chennai": [
+                "event.search"
+              ],
+              "pune": [
+                "event.search"
+              ],
+              "hyderabad": [
+                "event.search"
+              ],
+              "march": [
+                "event.search"
+              ],
+              "april": [
+                "event.search"
+              ],
+              "may": [
+                "event.search"
+              ],
+              "june": [
+                "event.search"
+              ],
+              "juli": [
+                "event.search"
+              ],
+              "august": [
+                "event.search"
+              ],
+              "septemb": [
+                "event.search"
+              ],
+              "octob": [
+                "event.search"
+              ],
+              "novemb": [
+                "event.search"
+              ],
+              "decemb": [
+                "event.search"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "2025",
+                "find",
+                "event",
+                "in",
+                "mumbai",
+                "this",
+                "januari",
+                "show",
+                "me",
+                "kolkata",
+                "delhi",
+                "bangalor",
+                "februari",
+                "chennai",
+                "pune",
+                "hyderabad",
+                "march",
+                "april",
+                "may",
+                "june",
+                "juli",
+                "august",
+                "septemb",
+                "octob",
+                "novemb",
+                "decemb",
+                "2026"
+              ],
+              "intents": [
+                "event.search"
+              ],
+              "perceptrons": [
+                [
+                  1.8452086448669434,
+                  1.7369306087493896,
+                  3.473771810531616,
+                  3.473771810531616,
+                  0.5092520117759705,
+                  1.7369306087493896,
+                  0.35082030296325684,
+                  1.736906886100769,
+                  1.736906886100769,
+                  0.49520742893218994,
+                  0.48840591311454773,
+                  0.5012602210044861,
+                  0.7003052830696106,
+                  0.4925817847251892,
+                  0.5007809996604919,
+                  0.48539361357688904,
+                  0.8135546445846558,
+                  0.666449785232544,
+                  0.4654196798801422,
+                  0.26718538999557495,
+                  0.12126141786575317,
+                  0.05215803533792496,
+                  0.021692417562007904,
+                  0.006683683954179287,
+                  0.004635505378246307,
+                  0.0020723205525428057,
+                  1.628218650817871,
+                  1.7366779086682174
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "Find events in mumbai this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in January 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in January 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in January 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in January 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in January 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in January 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in January 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in January 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in January 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this January 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in January 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in February 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in February 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in February 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in February 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in February 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in February 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in February 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in February 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in February 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this February 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in February 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in March 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in March 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in March 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in March 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in March 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in March 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in March 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this March 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in March 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in April 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in April 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in April 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in April 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in April 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in April 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in April 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this April 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in April 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in May 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in May 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in May 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in May 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in May 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in May 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in May 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in May 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in May 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this May 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in May 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in June 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in June 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in June 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in June 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in June 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in June 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in June 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in June 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in June 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this June 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in June 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in July 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in July 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in July 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in July 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in July 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in July 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in July 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in July 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this July 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in July 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in August 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in August 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in August 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in August 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in August 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in August 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in August 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in August 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in August 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this August 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in August 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in September 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in September 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in September 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in September 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in September 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in September 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in September 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in September 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in September 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this September 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in September 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in October 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in October 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in October 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in October 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in October 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in October 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in October 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in October 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in October 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this October 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in October 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in November 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in November 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in November 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in November 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in November 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in November 2025"
+      ],
+      [
+        "en",
+        "Find events in chennai this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in chennai in November 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2025"
+      ],
+      [
+        "en",
+        "Find events in bangalore this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in December 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in December 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in December 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in December 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in December 2025"
+      ],
+      [
+        "en",
+        "Find events in mumbai this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in December 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in December 2025"
+      ],
+      [
+        "en",
+        "Find events in pune this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in pune in December 2025"
+      ],
+      [
+        "en",
+        "Find events in kolkata this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in December 2025"
+      ],
+      [
+        "en",
+        "Find events in delhi this December 2025"
+      ],
+      [
+        "en",
+        "Show me events in delhi in December 2025"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in January 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in January 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in January 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in January 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in January 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in January 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in January 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in January 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in January 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this January 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in January 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in February 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in February 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in February 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in February 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in February 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in February 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in February 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in February 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in February 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this February 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in February 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in March 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in March 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in March 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in March 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in March 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in March 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this March 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in March 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in April 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in April 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in April 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in April 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in April 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in April 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this April 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in April 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in May 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in May 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in May 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in May 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in May 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in May 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in May 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in May 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in May 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this May 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in May 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in June 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in June 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in June 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in June 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in June 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in June 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in June 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in June 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in June 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this June 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in June 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in July 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in July 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in July 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in July 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in July 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this July 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in July 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in August 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in August 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in August 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in August 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in August 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in August 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in August 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in August 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in August 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this August 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in August 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in September 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in September 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in September 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in September 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in September 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in September 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in September 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in September 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in September 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this September 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in September 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in October 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in October 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in October 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in October 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in October 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in October 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in October 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in October 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in October 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this October 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in October 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in November 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in November 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in November 2026"
+      ],
+      [
+        "en",
+        "Find events in delhi this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in delhi in November 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in November 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in November 2026"
+      ],
+      [
+        "en",
+        "Find events in mumbai this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in mumbai in November 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this November 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in November 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in December 2026"
+      ],
+      [
+        "en",
+        "Find events in pune this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in pune in December 2026"
+      ],
+      [
+        "en",
+        "Find events in hyderabad this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in hyderabad in December 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in December 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in December 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in December 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in December 2026"
+      ],
+      [
+        "en",
+        "Find events in kolkata this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in kolkata in December 2026"
+      ],
+      [
+        "en",
+        "Find events in chennai this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in chennai in December 2026"
+      ],
+      [
+        "en",
+        "Find events in bangalore this December 2026"
+      ],
+      [
+        "en",
+        "Show me events in bangalore in December 2026"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {}
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
