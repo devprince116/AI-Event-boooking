@@ -1,2882 +1,1202 @@
 [
-    {
-        "id": 1,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 2,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 3,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 4,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 5,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 6,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 7,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 8,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 9,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 10,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "January"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 11,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 12,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 13,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 14,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 15,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 16,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 17,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 18,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 19,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 20,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "February"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 21,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 22,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 23,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 24,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 25,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 26,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 27,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 28,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 29,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 30,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "March"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 31,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 32,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 33,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 34,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 35,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 36,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 37,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 38,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 39,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 40,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2025,
-            "month": "April"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 41,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 42,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 43,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 44,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 45,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 46,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 47,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 48,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 49,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 50,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "May"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 51,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 52,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 53,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 54,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 55,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 56,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 57,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 58,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 59,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 60,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "June"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 61,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 62,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 63,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 64,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 65,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 66,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 67,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 68,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 69,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 70,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "July"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 71,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 72,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 73,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 74,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 75,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 76,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 77,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 78,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 79,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 80,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2025,
-            "month": "August"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 81,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 82,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 83,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 84,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 85,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 86,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 87,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 88,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 89,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 90,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "September"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 91,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 92,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 93,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 94,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 95,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 96,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 97,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 98,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 99,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 100,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "October"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 101,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 102,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 103,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 104,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 105,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 106,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 107,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 108,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 109,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 110,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2025,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 111,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 112,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 113,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 114,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 115,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 116,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 117,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 118,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 119,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 120,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2025,
-            "month": "December"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 121,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 122,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 123,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 124,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 125,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 126,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 127,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 128,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 129,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 130,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "January"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 131,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 132,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 133,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 134,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 135,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 136,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 137,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 138,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 139,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 140,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "February"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 141,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 142,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 143,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 144,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 145,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 146,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 147,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 148,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 149,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 150,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "March"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 151,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 152,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 153,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 154,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 155,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 156,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 157,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 158,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 159,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 160,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "April"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 161,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 162,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 163,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 164,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 165,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 166,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Hyderabad, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 167,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 168,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 169,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 170,
-        "heading": "Blockchain Future Conference",
-        "date": {
-            "year": 2026,
-            "month": "May"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 171,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 172,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 173,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 174,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 175,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 176,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 177,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 178,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 179,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 180,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "June"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 181,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 182,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Mumbai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 183,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 184,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 185,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 186,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 187,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 188,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 189,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 190,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "July"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 191,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Chennai, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 192,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 193,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 194,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 195,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 196,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 197,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 198,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 199,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 200,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2026,
-            "month": "August"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 201,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 202,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 203,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 204,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Hyderabad, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 205,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 206,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 207,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 208,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 209,
-        "heading": "Jazz & Blues Festival",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Delhi, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 210,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "September"
-        },
-        "location": "Pune, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 211,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 212,
-        "heading": "Digital Marketing Bootcamp",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 213,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 214,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Pune, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 215,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 216,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 217,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Kolkata, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 218,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 219,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Delhi, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 220,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "October"
-        },
-        "location": "Bangalore, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 221,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 222,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 223,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 224,
-        "heading": "AI & Machine Learning Expo",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Chennai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 225,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Mumbai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 226,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Delhi, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 227,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 228,
-        "heading": "Tech Innovations Conference",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 229,
-        "heading": "Global Business Summit",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Mumbai, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 230,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "November"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 231,
-        "heading": "Photography Masterclass",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 232,
-        "heading": "Bollywood Music Fiesta",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Pune, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 233,
-        "heading": "Cybersecurity Leadership Forum",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Hyderabad, India",
-        "category": "conference",
-        "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
-        "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
-    },
-    {
-        "id": 234,
-        "heading": "Data Science Hands-on Workshop",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 235,
-        "heading": "Personal Finance & Investment Workshop",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Kolkata, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 236,
-        "heading": "Classical Music Soiree",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Bangalore, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 237,
-        "heading": "Rock Legends Live",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 238,
-        "heading": "Indie Pop Night",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Kolkata, India",
-        "category": "concert",
-        "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
-        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
-    },
-    {
-        "id": 239,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Chennai, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    },
-    {
-        "id": 240,
-        "heading": "Creative Writing Intensive",
-        "date": {
-            "year": 2026,
-            "month": "December"
-        },
-        "location": "Bangalore, India",
-        "category": "workshop",
-        "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
-        "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
-    }
+  {
+    "id": 1,
+    "heading": "Data Science Hands-on Workshop",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Mumbai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 2,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2026,
+      "month": "June"
+    },
+    "location": "Kolkata, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 3,
+    "heading": "Personal Finance & Investment Workshop",
+    "date": {
+      "year": 2025,
+      "month": "March"
+    },
+    "location": "Delhi, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 4,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2026,
+      "month": "April"
+    },
+    "location": "Kolkata, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 5,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Mumbai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 6,
+    "heading": "AI & Machine Learning Expo",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 7,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2025,
+      "month": "March"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 8,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 9,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 10,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 11,
+    "heading": "Tech Innovations Conference",
+    "date": {
+      "year": 2026,
+      "month": "February"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 12,
+    "heading": "Personal Finance & Investment Workshop",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Chennai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 13,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Pune, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 14,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Chennai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 15,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2026,
+      "month": "July"
+    },
+    "location": "Kolkata, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 16,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 17,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Bangalore, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 18,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 19,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2026,
+      "month": "June"
+    },
+    "location": "Kolkata, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 20,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 21,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Chennai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 22,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 23,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2026,
+      "month": "July"
+    },
+    "location": "Mumbai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 24,
+    "heading": "Data Science Hands-on Workshop",
+    "date": {
+      "year": 2026,
+      "month": "October"
+    },
+    "location": "Delhi, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 25,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Pune, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 26,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2025,
+      "month": "April"
+    },
+    "location": "Hyderabad, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 27,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 28,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "April"
+    },
+    "location": "Hyderabad, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 29,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2025,
+      "month": "August"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 30,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 31,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2026,
+      "month": "June"
+    },
+    "location": "Mumbai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 32,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2025,
+      "month": "October"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 33,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2026,
+      "month": "April"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 34,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Chennai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 35,
+    "heading": "AI & Machine Learning Expo",
+    "date": {
+      "year": 2025,
+      "month": "August"
+    },
+    "location": "Chennai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 36,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2026,
+      "month": "April"
+    },
+    "location": "Mumbai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 37,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2025,
+      "month": "November"
+    },
+    "location": "Kolkata, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 38,
+    "heading": "Data Science Hands-on Workshop",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 39,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 40,
+    "heading": "Personal Finance & Investment Workshop",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Bangalore, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 41,
+    "heading": "Tech Innovations Conference",
+    "date": {
+      "year": 2026,
+      "month": "May"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 42,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2025,
+      "month": "October"
+    },
+    "location": "Pune, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 43,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2026,
+      "month": "January"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 44,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Delhi, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 45,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2025,
+      "month": "August"
+    },
+    "location": "Mumbai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 46,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2026,
+      "month": "October"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 47,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 48,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 49,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2026,
+      "month": "July"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 50,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Delhi, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 51,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2026,
+      "month": "December"
+    },
+    "location": "Bangalore, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 52,
+    "heading": "Data Science Hands-on Workshop",
+    "date": {
+      "year": 2026,
+      "month": "January"
+    },
+    "location": "Kolkata, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 53,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2026,
+      "month": "April"
+    },
+    "location": "Pune, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 54,
+    "heading": "Rock Legends Live",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Rock Legends Live. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 55,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Mumbai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 56,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 57,
+    "heading": "Tech Innovations Conference",
+    "date": {
+      "year": 2025,
+      "month": "February"
+    },
+    "location": "Bangalore, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 58,
+    "heading": "Personal Finance & Investment Workshop",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Chennai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 59,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2025,
+      "month": "February"
+    },
+    "location": "Mumbai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 60,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2026,
+      "month": "September"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 61,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2026,
+      "month": "December"
+    },
+    "location": "Pune, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 62,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2025,
+      "month": "December"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 63,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2025,
+      "month": "July"
+    },
+    "location": "Kolkata, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 64,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2025,
+      "month": "December"
+    },
+    "location": "Pune, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 65,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2025,
+      "month": "March"
+    },
+    "location": "Bangalore, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 66,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2026,
+      "month": "May"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 67,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2026,
+      "month": "November"
+    },
+    "location": "Mumbai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 68,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2025,
+      "month": "August"
+    },
+    "location": "Mumbai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 69,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2026,
+      "month": "November"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 70,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2025,
+      "month": "June"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 71,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Kolkata, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 72,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2025,
+      "month": "September"
+    },
+    "location": "Kolkata, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 73,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "November"
+    },
+    "location": "Mumbai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 74,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "November"
+    },
+    "location": "Delhi, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 75,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 76,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 77,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2026,
+      "month": "January"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 78,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2025,
+      "month": "December"
+    },
+    "location": "Bangalore, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 79,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2025,
+      "month": "March"
+    },
+    "location": "Kolkata, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 80,
+    "heading": "Bollywood Music Fiesta",
+    "date": {
+      "year": 2026,
+      "month": "October"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Bollywood Music Fiesta. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 81,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2026,
+      "month": "February"
+    },
+    "location": "Chennai, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 82,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2026,
+      "month": "December"
+    },
+    "location": "Hyderabad, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 83,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2025,
+      "month": "April"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 84,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2025,
+      "month": "August"
+    },
+    "location": "Mumbai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 85,
+    "heading": "Tech Innovations Conference",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Tech Innovations Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 86,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2025,
+      "month": "November"
+    },
+    "location": "Delhi, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 87,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Kolkata, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 88,
+    "heading": "Personal Finance & Investment Workshop",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Bangalore, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Personal Finance & Investment Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 89,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 90,
+    "heading": "Classical Music Soiree",
+    "date": {
+      "year": 2025,
+      "month": "March"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Classical Music Soiree. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 91,
+    "heading": "Cybersecurity Leadership Forum",
+    "date": {
+      "year": 2025,
+      "month": "April"
+    },
+    "location": "Bangalore, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Cybersecurity Leadership Forum. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 92,
+    "heading": "AI & Machine Learning Expo",
+    "date": {
+      "year": 2025,
+      "month": "January"
+    },
+    "location": "Delhi, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in AI & Machine Learning Expo. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 93,
+    "heading": "Indie Pop Night",
+    "date": {
+      "year": 2026,
+      "month": "October"
+    },
+    "location": "Chennai, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Indie Pop Night. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 94,
+    "heading": "Creative Writing Intensive",
+    "date": {
+      "year": 2025,
+      "month": "December"
+    },
+    "location": "Hyderabad, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Creative Writing Intensive. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 95,
+    "heading": "Photography Masterclass",
+    "date": {
+      "year": 2025,
+      "month": "May"
+    },
+    "location": "Hyderabad, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Photography Masterclass. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 96,
+    "heading": "Blockchain Future Conference",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Kolkata, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Blockchain Future Conference. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 97,
+    "heading": "Global Business Summit",
+    "date": {
+      "year": 2026,
+      "month": "October"
+    },
+    "location": "Kolkata, India",
+    "category": "conference",
+    "description": "Join industry leaders and experts as they discuss the latest trends and advancements in Global Business Summit. Engage in insightful sessions, networking opportunities, and panel discussions.",
+    "img": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "id": 98,
+    "heading": "Jazz & Blues Festival",
+    "date": {
+      "year": 2026,
+      "month": "November"
+    },
+    "location": "Bangalore, India",
+    "category": "concert",
+    "description": "Experience an unforgettable night of music with Jazz & Blues Festival. Enjoy electrifying performances by top artists and immerse yourself in a spectacular live atmosphere.",
+    "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3"
+  },
+  {
+    "id": 99,
+    "heading": "Data Science Hands-on Workshop",
+    "date": {
+      "year": 2026,
+      "month": "March"
+    },
+    "location": "Delhi, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Data Science Hands-on Workshop. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 100,
+    "heading": "Digital Marketing Bootcamp",
+    "date": {
+      "year": 2026,
+      "month": "February"
+    },
+    "location": "Chennai, India",
+    "category": "workshop",
+    "description": "Enhance your skills with hands-on training in Digital Marketing Bootcamp. Learn from top professionals and gain practical experience to advance your career.",
+    "img": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  }
 ]

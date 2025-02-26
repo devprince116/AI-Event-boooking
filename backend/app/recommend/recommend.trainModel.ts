@@ -15,6 +15,13 @@ interface Event {
     img: string;
 }
 
+//  create months object for filtering over months using AI
+const months: { [key: string]: number } = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12
+};
+
 
 // fetch dataset from json file
 let eventDatabase: Event[] = [];
@@ -25,13 +32,6 @@ try {
     console.error("Error loading events dataset:", err);
     process.exit(1);
 }
-
-//  create months object for filtering over months using AI
-const months: { [key: string]: number } = {
-    "january": 1, "february": 2, "march": 3, "april": 4,
-    "may": 5, "june": 6, "july": 7, "august": 8,
-    "september": 9, "october": 10, "november": 11, "december": 12
-};
 
 export async function recommendEvents(
     city: string,
@@ -51,16 +51,12 @@ export async function recommendEvents(
     manager.save();
 
     const cityName = city.split(",")[0].toLowerCase();
-    const months: { [key: string]: number } = {
-        "january": 1, "february": 2, "march": 3, "april": 4,
-        "may": 5, "june": 6, "july": 7, "august": 8,
-        "september": 9, "october": 10, "november": 11, "december": 12
-    };
+
     const registeredMonthNum = months[registeredMonth.toLowerCase()] || 1;
 
-    // AI-based nlp response
+    // AI-based response
     const response = await manager.process("en", `Find events in ${cityName} this ${registeredMonth} ${registeredYear}`);
-    console.log("NLP response: ", response);
+    // console.log("NLP response: ", response);
 
     //  get requested Events;
     const requestedEvents = eventDatabase.filter(event => {
@@ -78,7 +74,7 @@ export async function recommendEvents(
         return (
             event.date.year === registeredYear &&
             eventMonthNum === registeredMonthNum &&
-            !event.location.toLowerCase().includes(cityName) // 
+            !event.location.toLowerCase().includes(cityName)
         );
     });
 
@@ -90,7 +86,6 @@ export async function recommendEvents(
             (event.date.year === registeredYear && eventMonthNum > registeredMonthNum)
         );
     });
-
 
     if (requestedEvents.length === 0) {
         return {

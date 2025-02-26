@@ -1,4 +1,5 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { eventList } from "../utils/EventDatabase";
 import { Navigation } from "../components/Navigation";
 import { MdCalendarMonth, MdCategory } from "react-icons/md";
@@ -14,16 +15,65 @@ import {
   Grid,
   Fade,
   Grow,
+  CircularProgress,
 } from "@mui/material";
-import { RegistrationForm } from "../components/RegistrationForm";
+import { RegistrationContainer } from "../components/registrationForm/RegistrationContainer";
+import { Recommendations } from "../components/Recommendation/Recommendations";
+
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const EventDetail = () => {
   const { id } = useParams();
   const numId = Number(id);
 
+  const [recommendedEvents, setRecommendedEvents] = useState({
+    requestedEvents: [],
+    nearestEvents: [],
+    futureEvents: [],
+  });
+
+  const [loading, setLoading] = useState(true); // Loader for recommendations
+
   const filteredEvent = eventList.find(
     (eventDetail) => eventDetail.id === numId
   );
+
+  useEffect(() => {
+    if (filteredEvent) {
+      setLoading(true);
+      fetchRecommendations();
+      window.scrollTo(0, 0); // Smoothly scroll to top on event change
+    }
+  }, [filteredEvent]); // Re-run when event changes
+
+  const fetchRecommendations = async () => {
+    try {
+      const response = await fetch(BASE_URL + "/events", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          city: filteredEvent?.location || "",
+          month: filteredEvent?.date.month || "",
+          year: filteredEvent?.date.year || "",
+        }),
+      });
+      const data = await response.json();
+      if (data.success) {
+        setTimeout(() => {
+          // Smooth loading effect
+          setRecommendedEvents({
+            requestedEvents: data.recommendations.data.requestedEvents,
+            nearestEvents: data.recommendations.data.nearestEvents,
+            futureEvents: data.recommendations.data.futureEvents,
+          });
+          setLoading(false);
+        }, 800);
+      }
+    } catch (error) {
+      console.error("Error fetching event recommendations:", error);
+      setLoading(false);
+    }
+  };
 
   if (!filteredEvent) {
     return (
@@ -36,7 +86,7 @@ export const EventDetail = () => {
   }
 
   return (
-    <Fade in timeout={1200}>
+    <Fade in timeout={800}>
       <Box
         sx={{
           minHeight: "100vh",
@@ -64,7 +114,6 @@ export const EventDetail = () => {
                     boxShadow: "0 10px 20px rgba(0, 0, 0, 0.2)",
                   }}
                 >
-                  {/* Event Image */}
                   <CardMedia
                     component="img"
                     height="250"
@@ -72,8 +121,6 @@ export const EventDetail = () => {
                     alt={filteredEvent.heading}
                     sx={{ objectFit: "cover", borderRadius: "15px 15px 0 0" }}
                   />
-
-                  {/* Event Details */}
                   <CardContent sx={{ padding: "20px" }}>
                     <Typography
                       variant="h5"
@@ -85,8 +132,6 @@ export const EventDetail = () => {
                     >
                       {filteredEvent.heading}
                     </Typography>
-
-                    {/* Date & Location */}
                     <Stack direction="row" spacing={2} mb={2}>
                       <Box display="flex" alignItems="center">
                         <MdCalendarMonth size={24} color="#1976D2" />
@@ -98,7 +143,6 @@ export const EventDetail = () => {
                           {filteredEvent.date.month} {filteredEvent.date.year}
                         </Typography>
                       </Box>
-
                       <Box display="flex" alignItems="center">
                         <IoLocationSharp size={24} color="#D32F2F" />
                         <Typography
@@ -109,7 +153,6 @@ export const EventDetail = () => {
                           {filteredEvent.location}
                         </Typography>
                       </Box>
-
                       <Box display="flex" alignItems="center">
                         <MdCategory size={24} color="#388E3C" />
                         <Typography
@@ -121,8 +164,6 @@ export const EventDetail = () => {
                         </Typography>
                       </Box>
                     </Stack>
-
-                    {/* Description */}
                     <Typography
                       variant="h6"
                       fontWeight="bold"
@@ -142,8 +183,6 @@ export const EventDetail = () => {
                 </Card>
               </Grow>
             </Grid>
-
-            {/* Right Side: Registration Form */}
             <Grid
               item
               xs={12}
@@ -151,17 +190,21 @@ export const EventDetail = () => {
               sx={{ display: "flex", justifyContent: "center" }}
             >
               <Grow in timeout={1100}>
-                <Box
-                  sx={{
-                    width: "100%",
-                    maxWidth: "420px",
-                  }}
-                >
-                  <RegistrationForm filteredEvents={filteredEvent} />
+                <Box sx={{ width: "100%", maxWidth: "420px" }}>
+                  <RegistrationContainer />
                 </Box>
               </Grow>
             </Grid>
           </Grid>
+          <Box mt={4}>
+            {loading ? (
+              <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
+                <CircularProgress color="primary" />
+              </Box>
+            ) : (
+              <Recommendations recommendedEvents={recommendedEvents} />
+            )}
+          </Box>
         </Container>
       </Box>
     </Fade>

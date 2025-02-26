@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import { FilterBox } from "../components/FilterBox";
 import { Navigation } from "../components/Navigation";
-import { Box, Container, Grid, Fade } from "@mui/material";
+import { Box, Container, Fade } from "@mui/material";
 import { SearchEventList } from "../components/SearchEventList";
 
 export const FilterEvents = () => {
